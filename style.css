@@ -1,0 +1,134 @@
+header{
+	height: 123px;
+	text-align: center;
+	width:100%;
+    background-size: cover;
+    background-image:url("image1.png");
+}
+#add {
+	width: 26%;
+	float: left;
+	min-height: 500px;
+	border: solid 1px;
+	background-color: aliceblue;
+
+}
+#update{
+	display: none;
+}
+#cancelupdate{
+	display: none;
+	width: 58px;
+    margin-top: 7px;
+}
+.addbtn{
+	width: 80px;
+	margin-left: 125px;
+    margin-top: 20px;
+}
+#list-wrapper{
+	width: 34%;
+	float: left;
+	min-height: 500px;
+	margin-left: 10px;
+    border: solid 1px;
+	background-color: orange;
+
+}
+#detail{
+	width: 38%;
+	float: left;
+	min-height: 500px;
+	border:solid 1px;
+    margin-left: 10px;
+	background-color: lightcoral;
+}
+
+#details{
+
+	margin-left: 20px;
+	width: 460px;
+    word-wrap: break-word;
+	
+}
+#text{
+	display:none;
+	min-height: 100px;
+	padding: 30px;
+    line-height: 32px;
+}
+#table{
+    width: 50%;
+    border:2px solid grey;
+    margin:  auto auto;
+    
+
+
+}
+tr,td,th{
+    padding: 10px;
+    color: black;
+    text-align: left;
+
+}
+#trhead,#td,#th{
+    border:1px solid grey;
+    text-align: left;
+    
+}
+#trhead{
+    background-color: #1F497D;
+    border:1px solid grey;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    line-height: 23px;
+    text-align: left;
+}
+
+#listtable{
+
+    margin-left: 30px;
+    table-layout: fixed;
+    width: 510px;
+    word-wrap: break-word;
+}
+
+#updatebtn{
+
+	margin-left: 10px;
+	padding: 10px;
+}
+
+#okbtn{
+
+	margin-left: 10px;
+	padding: 10px;
+}
+
+#deletebtn{
+
+	
+	padding: 10px;
+}
+
+#rowcount{
+	
+	width: 100%;
+    min-height: 50px;
+    float: left;	
+    margin-left: 500px;
+}
+
+#message{
+	width: 270px;
+    height: 100px;
+}
+/*div.picture2 {
+   width:100px; /*width of your image*/
+   height:100px; /*height of your image*/
+   background-image:url('image.png');
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}*/
+
